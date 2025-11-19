@@ -10,10 +10,10 @@
 //|                                  Copyright 2024, MetaQuotes Ltd. |
 //|                                             https://www.mql5.com |
 //+------------------------------------------------------------------+
-#property copyright "江苏鑫起点信息技术服务有限公司@大树My05613828"
+#property copyright "江苏宇桐科技有限责任公司@大树My05613828"
 #property link      "https://www.eahub.cn/space-uid-8564.html"
 #property version   "1.0"
-#property  icon     "//include//M5//logo.ico"
+#property  icon     "//include//M5//ytkj.ico"
 #property indicator_chart_window
 #property indicator_plots 0
 #include <m4/position_information.mqh>
@@ -85,10 +85,10 @@ void OnTimer()
 //|                                  Copyright 2024, MetaQuotes Ltd. |
 //|                                             https://www.mql5.com |
 //+------------------------------------------------------------------+
-#property copyright "江苏鑫起点信息技术服务有限公司@大树My05613828"
+#property copyright "江苏宇桐科技有限责任公司@大树My05613828"
 #property link      "https://www.eahub.cn/space-uid-8564.html"
 #property version   "1.0"
-#property  icon     "//include//M5//logo.ico"
+#property  icon     "//include//M5//ytkj.ico"
 #property indicator_chart_window
 #property indicator_plots 0
 #include <position_information.mqh>
