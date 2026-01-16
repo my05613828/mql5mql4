@@ -45,7 +45,7 @@ int OnInit()
  //tp.EAZB_oninit(true);
 //--- indicator buffers mapping
    if(mode_chooses ==symbol)
-      持信 = new  持信类(Symbol(),0);
+      持信 = new  持信类(Symbol(),2);
    if(mode_chooses ==symbols)
       持信 =  new  持信类(0,100);
 //---
@@ -136,7 +136,7 @@ int OnInit()
   //tp.EAZB_oninit(true);
 //--- indicator buffers mapping
    if(mode_chooses ==symbol)
-      持信 =   new 持信类(Symbol(),0);
+      持信 =   new 持信类(Symbol(),2);
    if(mode_chooses ==symbols)
       持信 =  new 持信类(0,100);
 //---
