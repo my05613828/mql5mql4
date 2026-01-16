@@ -35,12 +35,13 @@ dll_tcp网络类* tp = new dll_tcp网络类(address,port_,"ZB","M5ZB orders_info
 int OnInit()
   {
 //---
-  //tp.EAZB_oninit(true);
+
 //--- indicator buffers mapping
    if(mode_chooses ==symbol)
-      持信 =   new 持信类(Symbol(),0);
+      持信 =   new 持信类(Symbol(),2);
    if(mode_chooses ==symbols)
       持信 =  new 持信类(0,100);
+   //tp.EAZB_oninit(true);
 //---
    return(INIT_SUCCEEDED);
   }
@@ -49,7 +50,7 @@ int OnInit()
 //+------------------------------------------------------------------+
 void OnDeinit(const int reason)
   {
-  delete 持信;
+   delete 持信;
   }
 //+------------------------------------------------------------------+
 //+------------------------------------------------------------------+
